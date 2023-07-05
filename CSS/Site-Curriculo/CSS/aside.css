@@ -1,0 +1,112 @@
+aside{
+    flex:30%;
+    background-color: #ffffff;
+}
+
+
+aside > .fotopessoal{
+   height: 300px;
+   background-image: url(../imagempessoal/bellingham.jpeg);
+   background-repeat: no-repeat; 
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   align-items: end;
+}
+aside > .infopessoal{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 40px 40px 40px 40px;
+    align-items: center;
+    margin: 1em 0 1em 1em;
+}
+
+.Skills{
+    margin: 1em 0 1em 1em;
+}
+
+.Skills > .tituloSkills{
+    display: flex;
+    padding: 5px;
+}
+
+.Skills > .tituloSkills > h2
+{
+    padding-left: 5px;
+}
+
+.borda100{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color:#ccc;
+}
+
+.preenchimento1{
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+}
+
+.preenchimento2{
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+}
+
+.preenchimento3{
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+}
+
+.preenchimento4{
+    background-color: greenyellow;
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.Languages{
+    margin: 1em 0 1em 1em;
+}
+
+.Languages > .tituloLanguages{
+    display: flex;
+    padding: 5px;
+}
+
+.linguagem1{
+    background-color:rgb(0, 153, 255);
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.linguagem2{
+    background-color: rgb(0, 153, 255);
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.linguagem3{
+    background-color: rgb(0, 153, 255);
+    border: 1px solid green;
+    border-radius: 10px;
+    text-align: center;
+    width: 50%; 
+}
+
+.h2{
+    color: rgb(0, 153, 255);
+}

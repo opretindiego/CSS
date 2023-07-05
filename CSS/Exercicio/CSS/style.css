@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    display: flex;
+
+}
+
+.top2{
+    flex-direction: row-reverse;
+    display: flex;
+    
+}
+
+.top3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.div1{
+    background-color: red;
+    width: 300px;
+    height: 50px; 
+    
+}
+.div2{
+    background-color:green ;
+    width: 300px;
+    height: 50px;
+}
+.div3{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+}
+.d1{
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+.d2{
+    background-color:green;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.d3{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.di1{
+    background-color: red;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.di2{
+    background-color:green;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+
+.di3{
+    background-color: blue;
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+}
+

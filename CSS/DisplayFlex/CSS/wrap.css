@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    border: 1px solid black;
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+article{
+    background-color: #f1f1f1;
+    border: 1px solid black;
+    margin: auto;
+    max-width: 850px; 
+    padding: 10px;
+}
+.titulo{
+    text-align: center;
+}
+.Galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imagem{
+    background-color: rgb(247, 23, 23);
+    margin: 10px;
+    height: 300px;
+    width: 200px;
+}

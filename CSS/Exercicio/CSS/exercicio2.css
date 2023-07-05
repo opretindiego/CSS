@@ -1,0 +1,59 @@
+@media( max-width: 700px){
+  .box{
+    width: 100%!Important;
+  }
+
+    .section{
+    flex-direction: column;
+  }
+  .article{
+    width: 100%!Important;
+  }
+  .aside{
+    width: 100%!Important;
+  }
+  .header{
+    width: 100%!Important;
+  }
+  .footer{
+    width: 100%!Important;
+  }
+  .nav{
+    width: 100%!Important;
+  }
+
+}
+
+.nav{
+    background-color: aqua;
+   height: 40px;
+}
+
+.header{
+    background-color:royalblue;
+    height: 600px;
+    width: 500px;
+}
+
+.article{
+    background-color: green;
+    height: 600px;
+    width: 830px;
+}
+
+aside{
+    background-color:royalblue;
+    height: 600px;
+    width: 600px;
+}
+
+section{
+    display: flex;
+
+}
+
+footer{
+    background-color: aqua;
+    height: 40px;
+}
+

@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --fundo--:#CFF4D2;
+    --Destaque--: #7BE495;
+    --Fonte--: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--fundo--);
+    font-family: var(--Fonte--);
+}
+main{
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    padding: 20px;
+}
+
